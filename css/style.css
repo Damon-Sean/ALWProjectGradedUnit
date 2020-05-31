@@ -1,0 +1,840 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #000000;
+   opacity: 1;
+   transition: 1s opacity;
+}
+
+body.fade-out{
+    opacity: 0;
+    transition: none;
+}
+
+#wrapper{
+   height: 100%;
+   width: auto;
+   overflow: auto; 
+}
+
+
+
+#home{
+   width: 100%;
+   height: 100vh;
+   margin: auto;
+   overflow: hidden; 
+    
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+header .name {
+    font-size: 2.0vw;
+    letter-spacing: 0.1vw;
+    position: relative;
+    z-index: 20;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}	
+
+header a{
+	color: #ff98c7;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+
+.burger{
+	float: right;
+	width:50px;
+	height: 50px;
+	background:url(../img/nav-open-48.png);
+	background-size: cover;
+	margin: 5px;
+}
+
+.picture-x{
+	float: right;
+	width:50px;
+	height: 50px;
+	background-size: cover;
+	margin: 5px;
+	
+}
+
+
+#nav2{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 25;
+	background-color: black;
+}
+
+
+.middle-bit{
+	width: 60%;
+	margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+}
+
+.middle-bit a{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5vw;
+    text-decoration: none;
+    color: #ff98c7;
+}
+
+
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+    display: block;
+}
+
+.icon-bar{
+    width: 38%;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon-bar a{
+    width: 20%;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.hide{
+		display:none;
+	}
+
+
+h3 {
+  text-align: center;
+}
+
+.blue-square-container {
+  text-align: center;
+}
+
+.Title {
+    position: relative;
+    color: #ff98c7;
+    overflow: hidden;
+    transform: translate3d(0, 50%, 0);
+    margin-left: 6%;
+}
+
+.Title h1 {
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+/*    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.text-box{
+	float: left;
+	width: 50%;
+	margin: auto;
+}
+
+.text-box p{
+	color: #ff98c7;
+	text-align: center;
+	font-size: 1.3vw;
+/*    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";*/
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.img-box {
+    float: right;
+    width: 45%;
+    margin: auto;
+}
+
+.responsive-small{
+	width: 100%;
+    max-width: 600px;
+	height: auto;
+}
+
+.img-box1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+	width: 45%;
+	margin: auto;
+}
+
+.img-box2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+	width: 45%;
+	margin: auto;
+}
+
+/*
+.blue-square {
+  background-color: #0074D9;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
+
+.green-square {
+  background-color: #3D9970;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+*/
+
+.hero-text{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	color: #ff98c7;
+	
+}
+
+.hero-text h1{
+	margin: 0;
+/*	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";*/
+    font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 4vw;
+	
+}
+
+.hero-text h3{
+	text-align: center;
+	margin: 0;
+/*	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";*/
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+
+.hero-text p{
+	text-align: center;
+	margin: 0;
+/*	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";*/
+    font-family: 'Exo 2',sans-serif;
+	font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.right-side{
+	float: right;
+	margin-top: 15%;
+	margin-right: 3%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-gal{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	overflow: auto;
+}
+
+
+
+.contact-details {
+  	align-items: center;
+  	justify-content: center;
+}
+
+.contact-details h1{
+	font-size: 2.5vw;
+	color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+	text-align: center;
+    font-weight: bold;
+}
+
+.contact-details h3{
+	font-size: 1.5vw;
+	color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Exo 2', sans-serif;
+	text-align: center;
+    font-weight: normal;
+}
+
+.contact-text h2{
+	font-size: 2vw;
+	color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+	text-align: left;
+    font-weight: bold;
+}
+
+/*
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    position: absolute;
+    margin-bottom: 0;
+    display: block;
+    margin: 0 auto;
+    height:100%;
+    width:100%;
+}
+*/
+
+.rep-container{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+    bottom: 0;
+    float: right;
+
+}
+
+button{
+   background-color: #ff98c7; 
+   border: none;
+   border-radius: 5px;
+   color: black;
+   font-size: 1vw;
+   font-weight: bold;
+   cursor: pointer;
+   -webkit- transition-duration: 0.5s;
+   transition-duration: 0.5s;
+   display: inline-block;
+}
+
+button:hover{
+    border: 1px solid;
+    box-shadow: 2px 5px white;
+}
+
+.contact-button{
+    margin: 0 auto;
+    display: block;
+}
+
+
+@media(max-width: 500px){
+    
+header .name {
+    font-size: 6.5vw;
+    letter-spacing: 0.1vw;
+    position: relative;
+    z-index: 20;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-weight: bold;
+}
+    
+    
+.hero-text {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #ff98c7;
+}
+    
+.hero-text p {
+    text-align: center;
+    margin: 0;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+    
+.hero-text h1 {
+    margin: 0;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-weight: bold;
+    font-size: 12vw;
+}
+    
+.hero-text h3 {
+    text-align: center;
+    margin: 0;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-size: 4.5vw;
+}
+    
+.middle-bit a {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 7.5vw;
+    text-decoration: none;
+    color: #ff98c7;
+}
+    
+.icon-bar {
+    margin: 0 auto;
+     display: block; 
+}
+    
+.icon-bar a {
+    width: 20%;
+    padding: 9px;
+}
+   
+.text-box {
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+  
+.Title h1 {
+    font-size: 8vw;
+    letter-spacing: 0.1em;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+    font-weight: bold;
+}
+    
+.text-box p {
+    color: #ff98c7;
+    text-align: center;
+    font-size: 5vw;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+    font-weight: 500;
+}
+
+.responsive-small {
+    /* width: 100%; */
+    max-width: 300px;
+    height: auto;
+}
+    
+.img-box {
+    width: 75%;
+    margin: auto;
+}
+    
+.img-box1 {
+    float: none;
+    width: 80%;
+    margin: auto;
+}
+
+}
+
+@media(width: 1920px){
+    
+.img-box2 {
+    height: 700px;
+    right: 0;
+    bottom: 0;
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+    
+.text-box p {
+    color: #ff98c7;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    margin-left: 5%;
+}
+    
+.middle-bit {
+    width: 45%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+}
+
+.middle-bit a {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2vw;
+    text-decoration: none;
+    color: #ff98c7;
+}
+    
+.responsive-small {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+    
+button {
+    background-color: #ff98c7;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit- transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    display: inline-block;
+}
+    
+.input {
+    width: 30%;
+    height: 50px;
+}
+    
+.contact-details h1 {
+    font-size: 2.5vw;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+    
+    
+.contact-details h3 {
+    font-size: 2vw;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}    
+    
+.responsive {
+    max-width: 100%;
+    height: 600px;
+}    
+
+    
+}
+
+
+@media(width: 768px){
+    
+.middle-bit a {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5vw;
+    text-decoration: none;
+    color: #ff98c7;
+}
+    
+.icon-bar {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+    
+.hero-text h1 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 8vw;
+}
+    
+.hero-text h3 {
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+}
+ 
+.hero-text p {
+    text-align: center;
+    margin: 0;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 3.5vw;
+    font-weight: 500;
+}   
+    
+.hero-text {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(0%);
+    color: #ff98c7;
+}
+    
+header .name {
+    font-size: 5vw;
+    letter-spacing: 0.1vw;
+    position: relative;
+    z-index: 20;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+  
+.Title {
+    position: relative;
+    color: #ff98c7;
+    overflow: hidden;
+    margin-left: 6%;
+}    
+
+.Title h1 {
+    font-size: 5vw;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}    
+  
+.text-box {
+    width: 95%;
+    margin: auto;
+}  
+    
+.text-box p {
+    color: #ff98c7;
+    text-align: center;
+    font-size: 3.3vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    margin-left: 5%;
+}
+    
+.img-box {
+    width: 88%;
+    margin: auto;
+}
+    
+.img-box1{
+    width: 85%;
+    margin: auto;
+}
+    
+.img-box2 {;
+    width: 82%;
+    margin-bottom: 15%;
+}
+    
+.responsive-small {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+    
+.contact-text h2 {
+    font-size: 5vw;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+    text-align: left;
+    font-weight: bold;
+}
+    
+button {
+    height: 50px;
+    background-color: #ff98c7;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 3vw;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit- transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    display: inline-block;
+}
+    
+.input {
+    width: 50%;
+    height: 25px;
+}   
+    
+.contact-details h1 {
+    font-size: 5vw;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+    
+
+.contact-details h3 {
+    font-size: 3.5vw;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+    
+
+
+}
+
+@media(max-width: 450px){
+    
+   .middle-bit a {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ff98c7;
+}
+    
+
+.bottom {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+    
+.icon-bar {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+    
+a img{
+    width: 50px;
+    height: 50px;
+    
+}
+    
+.img-box {
+    width: 87%;
+    margin: auto;
+}
+    
+.text-box p {
+    color: #ff98c7;
+    text-align: center;
+    font-size: 15px;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+    font-weight: 500;
+}
+    
+
+.contact-text h2 {
+    font-size: 15px;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', "monospace";
+    text-align: left;
+    font-weight: bold;
+}
+    
+.contact-details h1 {
+    font-size: 25px;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+    
+
+.contact-details h3 {
+    font-size: 20px;
+    color: #ff98c7;
+    letter-spacing: 0.1em;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+    
+    
+button {
+    background-color: #ff98c7;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit- transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    display: inline-block;
+}    
+
+    
+.img-box2 {
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+    
+.container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.map{
+    width: 300px;
+    height: 300px;
+    
+}  
+    
+.img-box2 {
+    position: relative;
+    margin-left: 12%;
+    float: left;
+    width: 100%;
+}
+
+}
+
+@media(width: 320px){
+    
+.img-box2 {
+    position: relative;
+    margin-left: 4%;
+    float: left;
+    width: 100%;
+}
+    
+}
+

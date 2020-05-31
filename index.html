@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ALW Website - Home</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" >
+<meta name="viewport" content="width=device-width"/>
+<meta name="keywords" content="Cyber Security, Technical Support, Aberdeen, Technology, Tech Student, Ellon"> 
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+</head>
+    
+
+<body>
+<script>document.body.className += ' fade-out';
+$(function() {
+    $('body').removeClass('fade-out');
+});    
+</script>
+
+<div id="wrapper"> 
+	
+<header>
+
+<a class="name" href="index.html"> 
+ALW    
+</a>
+    
+<div class="burger"> 
+<img alt="this is the burger icon" src="img/nav-open-48.png"> 
+</div>
+
+	
+</header>	
+    
+<section id="nav2">
+
+	
+	<div class="picture-x">
+		<img alt="this is the button to close the nav bar"  src="img/nav-close.png"/>
+	</div>
+	
+	<div class="middle-bit">
+								
+    <a class="close" href="index.html"> <h1> Home </h1></a>							
+    <a class="close" href="skills.html"> <h1> Skills </h1></a>
+    <a class="close" href="about.html"> <h1> About </h1></a>
+    <a class="close" href="map.html"> <h1> Map </h1></a>
+    <a class="close" href="contact.html"> <h1> Contact </h1></a>
+	
+        
+    
+			
+	<p class="hide">  </p>	
+
+        
+    <div class="bottom"> 
+        
+    <div class="icon-bar"> 
+    <a href="https://www.facebook.com" target="_blank"> 
+    <img src="img/facebook-3-32.png">     
+    </a>    
+        
+     <a href="https://www.twitter.com" target="_blank"> 
+    <img src="img/twitter-32.png">     
+    </a>  
+        
+    <a href="https://www.linkedin.com" target="_blank"> 
+    <img src="img/linkedin-3-32.png">     
+    </a>
+    
+    <a href="https://www.instagram.com" target="_blank">
+    <img src="img/instagram-32.png">    
+    </a>
+    </div>   
+        
+    </div>
+			
+	</div>	
+	
+	
+</section>
+
+<div class="hero-text">
+
+<h1> ALW </h1>	
+<h1> WELCOMES </h1>	
+<h1> YOU </h1>	
+	
+<h3> Cyber Security / Technical Support </h3>
+    
+<br> 
+    
+<p> Introducing you to a better tomorrow </p>
+	
+</div>
+    
+<img class="right-side responsive" alt="picutre of the logo" src="img/Logo.png"/>
+	
+	
+</div>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+		
+		$('.burger').click(function(){
+			
+			$('#nav2').fadeIn(600);
+			
+		});
+		
+		$('.picture-x, .close').click(function(){
+			$('#nav2').fadeOut(600);
+		});
+		
+	});
+    
+    $(function() {
+    $('body').removeClass('fade-out');
+    });
+	
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ALW Website - Map</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" >
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width"/>
+</head>
+
+<body>
+	
+<div id="wrapper">  
+	
+<header>
+
+<a class="name" href="index.html"> 
+ALW    
+</a>
+    
+<div class="burger"> 
+<img alt="this is the burger icon" src="img/nav-open-48.png"> 
+</div>
+
+	
+</header>	
+    
+<section id="nav2">
+
+	
+	<div class="picture-x">
+		<img alt="this is the button to close the nav bar"  src="img/nav-close.png"/>
+	</div>
+	
+	<div class="middle-bit">
+	
+	<a class="close" href="index.html"> <h1> Home </h1></a>								
+    <a class="close" href="skills.html"> <h1> Skills </h1></a>
+    <a class="close" href="about.html"> <h1> About </h1></a>
+    <a class="close" href="map.html"> <h1> Map </h1></a>
+    <a class="close" href="contact.html"> <h1> Contact </h1></a>
+	
+			
+	<p class="hide">  </p>	
+
+        
+    <div class="bottom"> 
+        
+    <div class="icon-bar"> 
+  <a href="https://www.facebook.com" target="_blank"> 
+    <img src="img/facebook-3-32.png">     
+    </a>    
+        
+     <a href="https://www.twitter.com" target="_blank"> 
+    <img src="img/twitter-32.png">     
+    </a>  
+        
+    <a href="https://www.linkedin.com" target="_blank"> 
+    <img src="img/linkedin-3-32.png">     
+    </a>
+    
+    <a href="https://www.instagram.com" target="_blank">
+    <img src="img/instagram-32.png">    
+    </a>
+    </div>   
+        
+    </div>
+			
+	</div>	
+	
+	
+</section>
+
+<div class="Title">
+<h1> Map </h1>	
+</div>	
+	
+<div class="container">
+	
+<div class="text-box"> 
+	
+	<p> This is where to find us  </p>
+    
+    <p> We are based in Ellon as you can see on the map </p>
+
+</div>
+    
+    
+<div class="img-box2">
+	
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4704946.546421071!2d-4.2343361!3d54.8443277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488389e1d29d34f5%3A0xfb6cc9e45fa3665e!2sEllon!5e0!3m2!1sen!2suk!4v1590258058987!5m2!1sen!2suk" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+</div>
+	
+</div>
+    
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+		
+		$('.burger').click(function(){
+			
+			$('#nav2').fadeIn(600);
+			
+		});
+		
+		$('.picture-x, .close').click(function(){
+			$('#nav2').fadeOut(600);
+		});
+		
+	});
+	
+</script>
+	
+</body>
+</html>
